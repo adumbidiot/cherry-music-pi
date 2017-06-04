@@ -5,4 +5,4 @@ RUN apt-get install git -y
 
 RUN git clone -b master https://github.com/devsnd/cherrymusic.git 
 
-CMD python cd cherrymusic &&cherrymusic --setup --port 8080
+CMD cd cherrymusic && python cherrymusic --setup --port 8080
