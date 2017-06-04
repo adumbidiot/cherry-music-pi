@@ -2,6 +2,7 @@ FROM hypriot/rpi-python
 
 RUN apt-get update
 RUN apt-get install git -y
+RUN pip install CherryPy
 
 RUN git clone -b master https://github.com/devsnd/cherrymusic.git 
 
