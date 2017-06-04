@@ -10,4 +10,5 @@ RUN mkdir /music
 
 RUN git clone -b master https://github.com/devsnd/cherrymusic.git 
 
-CMD cd cherrymusic && python cherrymusic --setup
+ADD ./run.sh ./run.sh
+CMD run.sh
