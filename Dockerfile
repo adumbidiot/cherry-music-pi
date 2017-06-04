@@ -11,4 +11,4 @@ RUN mkdir /music
 RUN git clone -b master https://github.com/devsnd/cherrymusic.git 
 
 ADD ./run.sh ./run.sh
-CMD run.sh
+CMD ./run.sh
