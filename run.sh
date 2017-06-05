@@ -3,9 +3,6 @@
 mount -t cifs -o guest //192.168.1.17/music /music
 
 #cd cherrymusic && python3 cherrymusic --setup
-ls -a
-ls -a root
-ls -a /root/.config/cherrymusic
 cat /root/.config/cherrymusic/cherrymusic.conf
 
 cd cherrymusic
