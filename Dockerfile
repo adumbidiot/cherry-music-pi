@@ -1,8 +1,9 @@
-FROM hypriot/rpi-python
+FROM resin/rpi-raspbian
 
 RUN apt-get update
 RUN apt-get install git -y
 RUN apt-get install cifs-utils -y
+RUN apt-get install python3
 
 RUN pip install --upgrade setuptools
 RUN pip install CherryPy
