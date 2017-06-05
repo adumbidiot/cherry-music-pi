@@ -13,6 +13,7 @@ RUN pip3 install --upgrade setuptools
 RUN pip3 install CherryPy
 
 RUN mkdir /music
+RUN mkdir /root/.local/share
 RUN mkdir /root/.local/share/cherrymusic
 
 RUN git clone --branch master https://github.com/devsnd/cherrymusic.git
