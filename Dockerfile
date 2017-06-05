@@ -15,7 +15,7 @@ RUN pip3 install CherryPy
 RUN mkdir /music
 
 RUN git clone --branch master https://github.com/devsnd/cherrymusic.git
-RUN cd cherrymusic && python cherrymusic
+RUN cd cherrymusic && python3 cherrymusic
 
 ADD ./run.sh ./run.sh
 RUN chmod +x ./run.sh
