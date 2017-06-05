@@ -6,6 +6,7 @@ ls
 cd music 
 ls
 cd ../
+readlink -f /music
 cd cherrymusic
 #python3 cherrymusic --setup
 python3 cherrymusic
