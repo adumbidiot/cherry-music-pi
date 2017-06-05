@@ -5,6 +5,7 @@ RUN apt-get install git -y
 RUN apt-get install cifs-utils -y
 RUN apt-get install python3 -y
 RUN apt-get install python3-pip -y
+RUN apt-get install sqlite3 -y
 
 RUN pip3 install --upgrade setuptools
 RUN pip3 install CherryPy
