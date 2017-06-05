@@ -6,8 +6,8 @@ RUN apt-get install cifs-utils -y
 RUN apt-get install python3 -y
 RUN apt-get install python3-pip -y
 
-RUN pip install --upgrade setuptools
-RUN pip install CherryPy
+RUN pip-3.2 install --upgrade setuptools
+RUN pip-3.2 install CherryPy
 
 RUN mkdir /music
 
