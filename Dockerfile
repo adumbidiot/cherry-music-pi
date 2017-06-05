@@ -16,6 +16,7 @@ RUN mkdir /music
 
 RUN git clone --branch master https://github.com/devsnd/cherrymusic.git
 RUN cd cherrymusic && python3 cherrymusic
+ADD ./cherrymusic.conf /root/.config/cherrymusic/cherrymusic.conf
 
 ADD ./run.sh ./run.sh
 RUN chmod +x ./run.sh
