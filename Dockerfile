@@ -10,7 +10,7 @@ RUN pip install CherryPy
 
 RUN mkdir /music
 
-git clone --branch master https://github.com/devsnd/cherrymusic.git
+RUN git clone --branch master https://github.com/devsnd/cherrymusic.git
 
 ADD ./run.sh ./run.sh
 RUN chmod +x ./run.sh
