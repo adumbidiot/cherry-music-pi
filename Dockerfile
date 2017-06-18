@@ -9,6 +9,8 @@ RUN apt-get install sqlite3 -y
 RUN apt-get install libav-tools -y
 RUN apt-get install imagemagick -y
 
+RUN alias ffmpeg=avconv
+
 RUN pip3 install --upgrade setuptools
 RUN pip3 install CherryPy
 
