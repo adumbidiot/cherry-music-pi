@@ -10,10 +10,11 @@ RUN apt-get install libav-tools -y
 RUN apt-get install imagemagick -y
 RUN apt-get install mpg123 -y
 RUN apt-get install lame -y
-RUN apt-get install faad2 -y
+RUN apt-get install faad -y
 RUN apt-get install flac -y
 RUN apt-get install python3-unidecode -y
-RUN apt-get install vorbis-tools
+RUN apt-get install vorbis-tools -y
+RUN apt-get install opus-tools -y
 
 RUN alias ffmpeg=avconv
 
