@@ -8,6 +8,8 @@ RUN apt-get install python3-pip -y
 RUN apt-get install sqlite3 -y
 RUN apt-get install libav-tools -y
 RUN apt-get install imagemagick -y
+RUN apt-get install mpg123 -y
+RUN apt-get install lame -y
 
 RUN alias ffmpeg=avconv
 
