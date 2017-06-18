@@ -13,6 +13,7 @@ RUN apt-get install lame -y
 RUN apt-get install faad -y
 RUN apt-get install flac -y
 RUN apt-get install python3-unidecode -y
+RUN apt-get install vorbis-tools
 
 RUN alias ffmpeg=avconv
 
